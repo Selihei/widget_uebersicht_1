@@ -30,7 +30,7 @@ class MainApp extends StatelessWidget {
                   child: Center(
                     child: ElevatedButton(onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.purple,
+                      backgroundColor: Colors.deepPurple,
                       minimumSize: Size(0, 0),
                       padding: EdgeInsets.symmetric(horizontal: 25, vertical: 8),
                     ),
@@ -41,16 +41,35 @@ class MainApp extends StatelessWidget {
                 Container(
                   height: 100,
                   width: 100,
-                  color: Colors.green
+                  color: Colors.green,
+                   child: Center(
+                    child: ElevatedButton(onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple,
+                      minimumSize: Size(0, 0),
+                      padding: EdgeInsets.symmetric(horizontal: 25, vertical: 8),
+                    ),
+                    child: Text("B", style: TextStyle(color: Colors.white),))
+                  ),
                 ),
                 SizedBox(width: 8),
                 Container(
                   height: 100,
                   width: 100,
-                  color: Colors.blueAccent
+                  color: Colors.blueAccent,
+                   child: Center(
+                    child: ElevatedButton(onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple,
+                      minimumSize: Size(0, 0),
+                      padding: EdgeInsets.symmetric(horizontal: 25, vertical: 8),
+                    ),
+                    child: Text("C", style: TextStyle(color: Colors.white),))
+                  ),
                 ),
               ],
-            )
+            ),
+            SizedBox(height: 25,),
           ]
         ),
       ),
