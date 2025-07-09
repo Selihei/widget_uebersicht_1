@@ -22,7 +22,7 @@ class MainApp extends StatelessWidget {
             SizedBox(height: 30),
             Row(
               children: [
-                SizedBox(width: 5),
+                SizedBox(width: 10),
                 Container(
                   height: 100,
                   width: 100,
@@ -37,7 +37,7 @@ class MainApp extends StatelessWidget {
                     child: Text("A", style: TextStyle(color: Colors.white),))
                   ),
                 ),
-                SizedBox(width: 8),
+                SizedBox(width: 10),
                 Container(
                   height: 100,
                   width: 100,
@@ -70,6 +70,22 @@ class MainApp extends StatelessWidget {
               ],
             ),
             SizedBox(height: 25,),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+              Icon(
+                Icons.face,
+                size: 35,
+                color: Colors.black,
+              ),
+              SizedBox(width: 70,),
+              Icon(
+                Icons.face,
+                size: 35,
+                color: Colors.black,
+              ),
+              ],
+            )
           ]
         ),
       ),
